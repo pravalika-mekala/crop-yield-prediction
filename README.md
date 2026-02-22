@@ -2,6 +2,12 @@
 
 An AI-powered Crop Yield Prediction and Advisory System built using Machine Learning.
 
+## 🌍 Live Demo
+
+🔗 https://crop-yield-prediction-te69.onrender.com
+
+(Note: App may take 30–60 seconds to wake up on first load.)
+
 ## 📌 Overview
 
 This system predicts crop yield based on:
