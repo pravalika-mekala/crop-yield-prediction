@@ -1,0 +1,6 @@
+Fertilizer,Nutrient_Content,Price_per_kg
+Urea,Nitrogen,6
+DAP,Phosphorus,25
+MOP,Potassium,20
+Lime,Soil_pH,5
+Gypsum,Soil_pH,7

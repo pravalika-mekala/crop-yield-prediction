@@ -1,0 +1,10 @@
+Crop,Condition,Priority,Advice
+General,Low_Nitrogen,High,Apply urea in split doses to enhance vegetative growth.
+General,Low_Phosphorus,High,Apply DAP fertilizer during early growth stage.
+General,Low_Potassium,Medium,Apply MOP fertilizer to improve root strength.
+General,Low_Rainfall,High,Use drip or sprinkler irrigation to maintain soil moisture.
+General,High_Temperature,Medium,Apply mulching and ensure adequate irrigation.
+General,Low_Soil_pH,High,Apply agricultural lime to neutralize soil acidity.
+General,High_Soil_pH,High,Use gypsum and organic compost to balance alkaline soil.
+Rice,Low_Rainfall,High,Adopt alternate wetting and drying irrigation technique.
+Wheat,Low_Rainfall,High,Provide irrigation at crown root initiation stage.
