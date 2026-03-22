@@ -3,6 +3,7 @@
 An end-to-end Machine Learning web application that predicts crop yield based on environmental and soil parameters, helping enable data-driven agricultural decisions.
 
 🔗 **Live Demo:** https://crop-yield-prediction-te69.onrender.com
+
 ⚠️ *(App may take 30–60 seconds to wake up on first load)*
 
 ---
@@ -40,7 +41,7 @@ It also provides:
 
 * **Algorithm:** Random Forest Regressor
 * **Train-Test Split:** 80/20
-* **R² Score:** `0.97`
+* **R² Score:** **0.97**
 
 ### Feature Engineering:
 
@@ -85,36 +86,21 @@ This project uses a realistic synthetic agricultural dataset simulating:
 
 ## 📸 Application Preview
 
-Below are the UI snapshots from the application (local and deployed):
+Below are the UI snapshots from the application:
 
-### Local app view
-![Local app screenshot](screenshots/local-app.png)
+### Local App
 
-### Deployed app view
-![Deployed app screenshot](screenshots/deployed-app.png)
+<img width="1920" height="1020" alt="Screenshot 2026-03-22 182057" src="https://github.com/user-attachments/assets/97b855b2-865f-485a-b57e-7ec100f4aa3d" />
 
-*(If screenshots are not yet present, add files at `screenshots/local-app.png` and `screenshots/deployed-app.png` or replace links with your hosted image URLs.)
 
----
+### Deployed App
 
-## 💻 Run Locally
-
-=======
-Below are the UI snapshots from the application (local and deployed):
-
-### Local app view
-![Local app screenshot](screenshots/local-app.png)
-
-### Deployed app view
-![Deployed app screenshot](screenshots/deployed-app.png)
-
-*(If screenshots are not yet present, add files at `screenshots/local-app.png` and `screenshots/deployed-app.png` or replace links with your hosted image URLs.)
+<img width="1920" height="1020" alt="Screenshot 2026-03-22 182605" src="https://github.com/user-attachments/assets/0dddaefa-90ac-4649-bc68-53c7ebaf738c" />
 
 ---
 
 ## 💻 Run Locally
 
->>>>>>> 64fc758 (Update README + set app host/port; include screenshot placeholders and R² score)
 ```bash
 # Clone repository
 git clone https://github.com/pravalika-mekala/crop-yield-prediction.git
@@ -153,8 +139,5 @@ CSE (Data Science) Student
 
 ---
 
-<<<<<<< HEAD
 ⭐ If you found this project useful, consider giving it a star!
-=======
-⭐ If you found this project useful, consider giving it a star!
->>>>>>> 64fc758 (Update README + set app host/port; include screenshot placeholders and R² score)
+
