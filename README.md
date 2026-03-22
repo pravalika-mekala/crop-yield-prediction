@@ -40,7 +40,7 @@ It also provides:
 
 * **Algorithm:** Random Forest Regressor
 * **Train-Test Split:** 80/20
-* **R² Score:** *0.XX (update with your actual score)*
+* **R² Score:** `0.97`
 
 ### Feature Engineering:
 
@@ -85,14 +85,36 @@ This project uses a realistic synthetic agricultural dataset simulating:
 
 ## 📸 Application Preview
 
-*(Add screenshots here for better visibility)*
-Example:
-![App Screenshot](screenshots/ui.png)
+Below are the UI snapshots from the application (local and deployed):
+
+### Local app view
+![Local app screenshot](screenshots/local-app.png)
+
+### Deployed app view
+![Deployed app screenshot](screenshots/deployed-app.png)
+
+*(If screenshots are not yet present, add files at `screenshots/local-app.png` and `screenshots/deployed-app.png` or replace links with your hosted image URLs.)
 
 ---
 
 ## 💻 Run Locally
 
+=======
+Below are the UI snapshots from the application (local and deployed):
+
+### Local app view
+![Local app screenshot](screenshots/local-app.png)
+
+### Deployed app view
+![Deployed app screenshot](screenshots/deployed-app.png)
+
+*(If screenshots are not yet present, add files at `screenshots/local-app.png` and `screenshots/deployed-app.png` or replace links with your hosted image URLs.)
+
+---
+
+## 💻 Run Locally
+
+>>>>>>> 64fc758 (Update README + set app host/port; include screenshot placeholders and R² score)
 ```bash
 # Clone repository
 git clone https://github.com/pravalika-mekala/crop-yield-prediction.git
@@ -131,4 +153,8 @@ CSE (Data Science) Student
 
 ---
 
+<<<<<<< HEAD
 ⭐ If you found this project useful, consider giving it a star!
+=======
+⭐ If you found this project useful, consider giving it a star!
+>>>>>>> 64fc758 (Update README + set app host/port; include screenshot placeholders and R² score)
