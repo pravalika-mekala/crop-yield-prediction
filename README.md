@@ -1,35 +1,61 @@
-# 🌾 Crop Yield Prediction using Artificial Agricultural Data
+# 🌾 Crop Yield Prediction Web Application
 
-An AI-powered Crop Yield Prediction and Advisory System built using Machine Learning.
+An end-to-end Machine Learning web application that predicts crop yield based on environmental and soil parameters, helping enable data-driven agricultural decisions.
 
-## 🌍 Live Demo
+🔗 **Live Demo:** https://crop-yield-prediction-te69.onrender.com
+⚠️ *(App may take 30–60 seconds to wake up on first load)*
 
-🔗 https://crop-yield-prediction-te69.onrender.com
-
-(Note: App may take 30–60 seconds to wake up on first load.)
+---
 
 ## 📌 Overview
 
-This system predicts crop yield based on:
+This application predicts crop yield using key agricultural factors such as:
 
-- Environmental conditions (Rainfall, Temperature, Humidity)
-- Soil nutrients (N, P, K)
-- Soil pH
-- Crop type and season
+* 🌧 Rainfall
+* 🌡 Temperature
+* 💧 Humidity
+* 🌱 Soil nutrients (N, P, K)
+* ⚗ Soil pH
+* 🌾 Crop type and season
 
-It also provides advisory insights and estimated revenue.
+It also provides:
+
+* 📊 Estimated yield output
+* 💰 Revenue estimation
+* 📈 Basic advisory insights
+
+---
+
+## 🚀 Key Features
+
+* ✅ Real-time crop yield prediction
+* ✅ End-to-end ML pipeline (training → deployment)
+* ✅ Interactive web interface using Flask
+* ✅ Cloud deployment (Render) for public access
+* ✅ Clean and user-friendly UI
 
 ---
 
 ## 🧠 Machine Learning
 
-- Algorithm: Random Forest Regressor
-- Train-Test Split: 80/20
-- Evaluation Metric: R² Score
-- Feature Engineering:
-  - One-hot encoding
-  - Feature scaling
-  - Data preprocessing
+* **Algorithm:** Random Forest Regressor
+* **Train-Test Split:** 80/20
+* **R² Score:** *0.XX (update with your actual score)*
+
+### Feature Engineering:
+
+* One-hot encoding
+* Feature scaling
+* Data preprocessing
+
+---
+
+## ⚙️ How It Works
+
+1. User inputs environmental and soil data
+2. Flask backend processes the input
+3. Trained ML model predicts crop yield
+4. Results are displayed with insights
 
 ---
 
@@ -37,43 +63,72 @@ It also provides advisory insights and estimated revenue.
 
 This project uses a realistic synthetic agricultural dataset simulating:
 
-- 28 Indian states
-- Multiple crops
-- Seasonal variations
-- Soil and climate conditions
+* 28 Indian states
+* Multiple crops
+* Seasonal variations
+* Soil and climate conditions
 
-The dataset was generated for ML experimentation purposes.
-
----
-
-## ⚙️ Tech Stack
-
-- Python
-- Flask
-- Scikit-learn
-- Pandas
-- NumPy
-- Bootstrap
+*(Dataset created for ML experimentation purposes)*
 
 ---
 
-## 🚀 Run Locally
+## 🛠 Tech Stack
 
-1. Install dependencies:
-   pip install -r requirements.txt
+* **Programming:** Python
+* **Backend:** Flask
+* **Machine Learning:** Scikit-learn
+* **Data Processing:** Pandas, NumPy
+* **Frontend:** HTML, CSS, Bootstrap
+* **Deployment:** Render
 
-2. Train model:
-   python train_model.py
+---
 
-3. Run app:
-   python app.py
+## 📸 Application Preview
 
-4. Open browser:
-   http://127.0.0.1:5000
+*(Add screenshots here for better visibility)*
+Example:
+![App Screenshot](screenshots/ui.png)
+
+---
+
+## 💻 Run Locally
+
+```bash
+# Clone repository
+git clone https://github.com/pravalika-mekala/crop-yield-prediction.git
+
+# Navigate to project folder
+cd crop-yield-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train model
+python train_model.py
+
+# Run application
+python app.py
+```
+
+Open in browser:
+👉 http://127.0.0.1:5000
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates the application of machine learning in agriculture, enabling smarter crop planning and productivity optimization using data-driven insights.
 
 ---
 
 ## 👩‍💻 Author
 
-Mekala Pravalika  
-CSE-DS Student
+**Pravalika Mekala**
+CSE (Data Science) Student
+
+🔗 GitHub: https://github.com/pravalika-mekala
+🔗 LinkedIn: https://www.linkedin.com/in/mekala-pravalika-12a774374
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
